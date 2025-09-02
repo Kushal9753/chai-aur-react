@@ -14,7 +14,18 @@ function App() {
     
     if(counter <20){
      //counter = counter + 1
-    setCounter(counter + 1)
+
+   // setCounter(counter + 1)
+
+    // setCounter(counter + 1)  // increase by one all
+    // setCounter(counter + 1)
+    // setCounter(counter + 1)
+
+    setCounter(prevcounter => prevcounter + 1) // increase basis of how many time it call
+    setCounter(prevcounter => prevcounter + 1)
+    setCounter(prevcounter => prevcounter + 1)
+    setCounter(prevcounter => prevcounter + 1)
+
     }
     
   }
